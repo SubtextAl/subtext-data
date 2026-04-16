@@ -29,12 +29,3 @@ After pushing, GitHub Pages deploys automatically (usually within a minute). Vis
 If the file downloads with your latest data, you're good.
 
 > **Note:** The Shopify component fetches this file with a cache-buster query param (`?t=${Date.now()}`), so visitors will always get the latest version without browser caching issues.
-
-## Enable GitHub Pages (first-time setup)
-
-1. Go to **Settings → Pages** in this repo
-2. Under **Source**, select **Deploy from a branch**
-3. Set the branch to `main` and the folder to `/docs`
-4. Click **Save**
-
-The site will be live at `https://colecharb.github.io/subtext-data/` within a few minutes.
