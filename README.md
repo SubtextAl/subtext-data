@@ -22,9 +22,13 @@ git push
 
 ## Verify changes are live
 
-After pushing, GitHub Pages deploys automatically (usually within a minute). Visit:
+After pushing, GitHub Pages deploys automatically (usually within a minute).
 
-`https://colecharb.github.io/subtext-data/Grind_Map_Data.csv`
+Once it's deployed, changes should be reflected in [the Brew Guide](https://www.subtext.coffee/pages/brew-guide) automatically.
+
+To check the data endpoint manually, visit:
+
+`https://subtextal.github.io/subtext-data/Grind_Map_Data.csv`
 
 If the file downloads with your latest data, you're good.
 
